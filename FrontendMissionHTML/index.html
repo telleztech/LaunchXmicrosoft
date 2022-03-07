@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasteleria Litle Word</title>
+    <link rel="stylesheet" type="text/css" href="pastel.css">
+    
+</head>
+<body>
+    <h1>Pasteleria  TinyWorld</h1><div class="logo"><img src="img/logotiny.png" width="250px"> </div> 
+    <h2>Le ofrece lo mejor en una amplia variedad de pasteles, postres y dulces para todos sus eventos y momentos especiales, estamos especializados en pasteles miniatura.</h2>
+    <h3>Sabores de pasteles</h3>
+    <p>
+        <ul>
+            <li>Chocolate</li>
+            <li>Vainilla</li>
+            <li>Relleno de sabor</li>
+        </ul>
+    <h3>Decoracion</h3>
+        <dl>
+            <dt>Adornos</dt>
+            <dd>Frase personalizada</dd>
+            <dd>Diseño impreso</dd>
+            <dd>Merengue tradicional</dd>
+        </dl>
+    
+    <h2>Hacer pedido</h2>
+    <p> datos de contacto del cliente que son Nombre, Teléfono, Correo Electrónico, 
+        Descripción general del pastel y la selección de sabores y adornos</p>
+
+    <form action="form.pho">
+        <label for="Nombre">A que nombre se realizará el pedido:</label><br>
+        <input type="text" id="nombre" name="nombre" placeholder="Nombre">
+        <br>
+        <label for="Telefono">Danos tu telefono para mantenernos en contacto</label><br>
+        <input type="text" id="telefono" name="telefono" placeholder="telefono">
+        <br>
+        <label for="Nombre">Correo electronico
+        </label><br>
+        <input type="text" id="email" name="email" placeholder="Correo electronico">
+        <br>
+        <label for="Nombre">Como quieres tu pastel</label><br>
+        <textarea type="textarea" id="Descripcion_pastel" name="Dpastel" placeholder="Como quieres tu pastel"></textarea>
+        <br>
+        <h3>Selecciona tu sabor</h3>
+        <input type="radio" id="chocolate" name="Chocolate" value="Chocolate">
+        <label for="Chocolate">Chocolate</label><br>
+        <input type="radio" id="vainilla" name="vainilla" value="vainilla">
+        <label for="Chocolate">vainilla</label><br>
+        <input type="radio" id="relleno" name="relleno" value="relleno">
+        <label for="Chocolate">Relleno</label><br>
+
+        <h3>Selección de adornos</h3>
+        <select name="adornos" id="adornos">
+            <option value="Frase">Frase personalizada</option>
+            <option value="impresion">Diseño impreso en oblea comestible</option>
+            <option value="Merengue">Merengue tradicional</option>
+            <option value="otro">Otro / Detallarlo en el texto</option>
+        </select>
+        <br>
+        <input type="reset">
+        <input type="submit">
+
+
+
+    </form>
+<footer>
+    <div class="contenedor-footer">
+        <div class="content-foo">
+            <h4>Dirección</h4>
+            <p>Calle Sandia #12 Xalapa , Veracruz.</p>
+        </div>
+        <div class="content-foo">
+            <h4>Telefono</h4>
+            <p> + 52 555 123 45 78</p>
+        </div>
+        <div class="content-foo">
+            <h4>Horario de atención</h4>
+            <p>9:00 AM - 8:00 PM</p>
+        </div>
+        <a href="./pastelero/index.html">Admin</a>
+    </div>
+</footer>
+</body>
+</html>

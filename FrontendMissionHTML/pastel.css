@@ -1,0 +1,83 @@
+* {
+    margin: 0.1em;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+
+body    {
+    font-family: 'open sans';
+    background: #7F7FD5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+h1,h2 {
+    font-size: 2rem;
+    
+    text-align: center;
+    
+
+}
+
+.logo {
+    padding-top: 1rem;
+    align-content: center;
+    width: 250px;
+    background-color: #dd6b4d;
+    border-radius: 100%;
+}
+
+
+
+h3, h4, h5, h6, dl, ul, label, input, select, textarea {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.texto, p, input, select, textarea {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+
+/* footer */
+footer{
+    background: #414141;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    
+  }
+  
+  .contenedor-footer{
+    width: 90%;
+    margin: auto;
+    padding-bottom: 50px;
+    
+  }
+  
+  .content-foo{
+    text-align: center;
+  }
+  
+  .content-foo h4{
+    color: #fff;
+    border-bottom: 3px solid #dd6b4d;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .content-foo p{
+    color: #ccc;
+    font-size: 1.5em;
+    
+  }
+
+  .content-past h5{
+    color: #ccc;
+    font-size: 1.5em;
+    border-bottom: 2px solid #dd6b4d
+    
+  }
+  
