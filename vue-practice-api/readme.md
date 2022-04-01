@@ -11,3 +11,9 @@
 az webapp up --location centralus --name azurevue --html
 
 ```
+
+#### Funcionamiento de la app
+
+La app ocupa una API de generacion aleatoria de usuarios que proporciona un JSON, para visualizarlo con VUE.
+
+Si es un hombre coloca Mr y un Marco azul alrededor de la imagen, si es mujer coloca un marco rosa y Mss antes del nombre.
