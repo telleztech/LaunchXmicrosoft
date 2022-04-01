@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <link rel="stylesheet" href="vue.css">
+    <title>Vue intro LaunchX</title>
+</head>
+<body>
+    <script src="https://unpkg.com/vue@3"></script>
+
+        <div id="app">
+            <img v-bind:src="foto" alt="foto de perfil" :class="genero">
+            <h1>{{Titulo}}. {{primerN}} {{Apellido}}</h1>
+            <h2>Datos de contacto:</h2>
+            <h3>Correo Electronico: {{Email}} <br> Password: {{pass}}</h3><h3>{{genero}} <br> </h3>
+            <h3>Telefono: {{telefono}} <br>Ciudad: {{city}} <br> Estado: {{estado}} <br> Pais: {{pais}}</h3>
+            <button v-on:click="ChangeUser" :class="genero">Generar nuevo usuario</button>
+        </div>
+    <script src="app.js"></script>
+</body>
+</html>

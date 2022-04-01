@@ -1,0 +1,45 @@
+*
+ {
+   
+    text-align: center;
+    text-transform: capitalize
+    
+ }
+
+body {
+   background: #0F2027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+   h1, h2, h3, h4, P {
+      color: white;
+   }
+
+ img {
+    border: 5px darkred solid;
+    margin-top: 3em;
+    border-radius: 10px 100px / 120px;
+ }
+
+ .male {
+    border-color: steelblue;
+    background-color: steelblue;
+ }
+
+ .female {
+    border-color: pink;
+    background-color: pink;
+    color: #333;
+ }
+
+ button {
+      background-color: darkred;
+      cursor: pointer;
+      font-size: large;
+      color: aliceblue;
+      border-radius: 15px;
+      padding: 0.5rem;
+
+ }
